@@ -27,7 +27,7 @@ public class AdminHome
         {
             public void actionPerformed(ActionEvent e)
             {
-                
+                AddUser obj= new AddUser();
             }
         });
         JButton delete =new JButton("Delete User");
